@@ -14,6 +14,8 @@ LIMITE_SAQUE = 3
 while True:
     opcao = input(menu)
 
+
+
     if opcao == "1":
         valor = float(input("Informe o valor para depósito: "))
         if valor > 0:
